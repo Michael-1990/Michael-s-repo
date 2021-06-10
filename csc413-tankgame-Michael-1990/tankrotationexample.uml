@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tankrotationexample</OriginalElement>
+  <nodes>
+    <node x="157.0" y="232.0">tankrotationexample.TRE</node>
+    <node x="319.0" y="158.0">tankrotationexample.HealthUp</node>
+    <node x="378.5" y="79.0">tankrotationexample.PowerUp</node>
+    <node x="437.0" y="158.0">tankrotationexample.SpeedUp</node>
+    <node x="212.5" y="0.0">tankrotationexample.GameObject</node>
+    <node x="494.5" y="79.0">tankrotationexample.Background</node>
+    <node x="113.72500000000002" y="79.0">tankrotationexample.Wall</node>
+    <node x="0.0" y="158.0">tankrotationexample.IndestructibleWall</node>
+    <node x="0.0" y="232.0">tankrotationexample.TankControl</node>
+    <node x="15.725000000000023" y="79.0">tankrotationexample.Bullet</node>
+    <node x="164.0" y="158.0">tankrotationexample.DestructibleWall</node>
+    <node x="231.47500000000002" y="79.0">tankrotationexample.Tank</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tankrotationexample.Bullet" target="tankrotationexample.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="54.72500000000002" y="49.0" />
+      <point x="223.89999999999998" y="49.0" />
+      <point x="-45.60000000000002" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.PowerUp" target="tankrotationexample.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="426.5" y="59.0" />
+      <point x="292.29999999999995" y="59.0" />
+      <point x="22.799999999999955" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.DestructibleWall" target="tankrotationexample.Wall">
+      <point x="0.0" y="-14.5" />
+      <point x="231.5" y="133.0" />
+      <point x="167.72500000000002" y="133.0" />
+      <point x="18.0" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.HealthUp" target="tankrotationexample.PowerUp">
+      <point x="-2.8421709430404007E-14" y="-14.5" />
+      <point x="368.0" y="133.0" />
+      <point x="402.5" y="133.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.Tank" target="tankrotationexample.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="267.475" y="59.0" />
+      <point x="269.5" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.Background" target="tankrotationexample.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="550.0" y="49.0" />
+      <point x="315.09999999999997" y="49.0" />
+      <point x="45.599999999999966" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.SpeedUp" target="tankrotationexample.PowerUp">
+      <point x="0.0" y="-14.5" />
+      <point x="485.0" y="133.0" />
+      <point x="450.5" y="133.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.Wall" target="tankrotationexample.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="149.72500000000002" y="59.0" />
+      <point x="246.7" y="59.0" />
+      <point x="-22.80000000000001" y="14.5" />
+    </edge>
+    <edge source="tankrotationexample.IndestructibleWall" target="tankrotationexample.Wall">
+      <point x="0.0" y="-14.5" />
+      <point x="72.0" y="133.0" />
+      <point x="131.72500000000002" y="133.0" />
+      <point x="-18.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6" x="299.81249999999994" y="131.06250000000009" />
+  <SelectedNodes>
+    <node>tankrotationexample.TRE</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

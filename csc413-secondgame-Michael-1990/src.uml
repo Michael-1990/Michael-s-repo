@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>src</OriginalElement>
+  <nodes>
+    <node x="0.0" y="163.0">src.LazarusControl</node>
+    <node x="171.0" y="163.0">src.GameWorld</node>
+    <node x="656.0" y="89.0">src.BoxDropper</node>
+    <node x="350.0" y="0.0">src.GameObject</node>
+    <node x="135.0" y="89.0">src.Background</node>
+    <node x="266.0" y="89.0">src.Lazarus</node>
+    <node x="564.0" y="89.0">src.Wall</node>
+    <node x="461.0" y="89.0">src.Button</node>
+    <node x="373.0" y="89.0">src.Box</node>
+    <node x="0.0" y="89.0">src.BoxIndicator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="src.Lazarus" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="309.5" y="69.0" />
+      <point x="390.7142857142857" y="69.0" />
+      <point x="-16.285714285714278" y="14.5" />
+    </edge>
+    <edge source="src.Wall" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="600.0" y="59.0" />
+      <point x="439.5714285714286" y="59.0" />
+      <point x="32.57142857142861" y="14.5" />
+    </edge>
+    <edge source="src.BoxDropper" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="712.0" y="49.0" />
+      <point x="455.8571428571429" y="49.0" />
+      <point x="48.85714285714289" y="14.5" />
+    </edge>
+    <edge source="src.Background" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="190.5" y="59.0" />
+      <point x="374.42857142857144" y="59.0" />
+      <point x="-32.571428571428555" y="14.5" />
+    </edge>
+    <edge source="src.Box" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="src.Button" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="502.5" y="69.0" />
+      <point x="423.28571428571433" y="69.0" />
+      <point x="16.285714285714334" y="14.5" />
+    </edge>
+    <edge source="src.BoxIndicator" target="src.GameObject">
+      <point x="0.0" y="-14.5" />
+      <point x="57.5" y="49.0" />
+      <point x="358.14285714285717" y="49.0" />
+      <point x="-48.85714285714283" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3992385786802033" x="451.3277707237438" y="111.69042545181168" />
+  <SelectedNodes>
+    <node>src.LazarusControl</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
